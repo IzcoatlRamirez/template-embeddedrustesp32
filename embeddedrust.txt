@@ -1,0 +1,12 @@
+--para compilar--
+    cargo build
+
+--para flashear--
+
+    espflash flash target/<mcu-target>/debug/<projectname>
+
+    espflash flash target/xtensa-esp32-espidf/debug/<projectname>
+
+--para monitorear--
+
+    espflash monitor + boot + en 
